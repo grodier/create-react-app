@@ -321,6 +321,7 @@ module.exports = {
               // @remove-on-eject-end
               plugins: [
                 [
+                  require.resolve('babel-plugin-styled-component'),
                   require.resolve('babel-plugin-named-asset-import'),
                   {
                     loaderMap: {
